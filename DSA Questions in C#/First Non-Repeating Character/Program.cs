@@ -33,17 +33,15 @@
             for (int i = 0; i < str.Length; i++)
             {
                 if (dict.ContainsKey(str[i]))
-                    dict[str[i]]++;
+                    dict[str[i]] = -1;
                 else
-                    dict[str[i]] = 1;
+                    dict[str[i]] = i;
             }
 
-            int index = 0;
             foreach (var kvp in dict)
             {
-                if (kvp.Value == 1)
-                    return index;
-                index++;
+                if (kvp.Value != -1)
+                    return kvp.Value;
             }
 
             return -1;
@@ -53,11 +51,13 @@
         Console.WriteLine($"First non-repeating character is at index: {FirstNonRepeatingCharacterSolutionOne("abcdeabcde")}");
         Console.WriteLine($"First non-repeating character is at index: {FirstNonRepeatingCharacterSolutionOne("abcde")}");
         Console.WriteLine($"First non-repeating character is at index: {FirstNonRepeatingCharacterSolutionOne("abcdeabc")}");
+        Console.WriteLine($"First non-repeating character is at index: {FirstNonRepeatingCharacterSolutionOne("faadabcbbebdf")}");
 
         Console.WriteLine($"\n -------------- \n");
         Console.WriteLine("Solution Two");
         Console.WriteLine($"First non-repeating character is at index: {FirstNonRepeatingCharacterSolutionTwo("abcdeabcde")}");
         Console.WriteLine($"First non-repeating character is at index: {FirstNonRepeatingCharacterSolutionTwo("abcde")}");
         Console.WriteLine($"First non-repeating character is at index: {FirstNonRepeatingCharacterSolutionTwo("abcdeabc")}");
+        Console.WriteLine($"First non-repeating character is at index: {FirstNonRepeatingCharacterSolutionTwo("faadabcbbebdf")}");
     }
 }
