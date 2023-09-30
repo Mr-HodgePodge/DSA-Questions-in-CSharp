@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Palindrome - Strings", "Pal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First Non-Repeating Character - Strings", "First Non-Repeating Character\First Non-Repeating Character - Strings.csproj", "{B06B9D15-6285-4E9D-8184-1A9CF5276099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balanced Brackets - Stacks", "Balanced Brackets - Stacks\Balanced Brackets - Stacks.csproj", "{A5A00410-05C2-44FE-9386-92EEFFB18B3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Balanced Brackets - Stacks", "Balanced Brackets - Stacks\Balanced Brackets - Stacks.csproj", "{A5A00410-05C2-44FE-9386-92EEFFB18B3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nth Fibonacci - Recursion", "Nth Fibonacci - Recursion\Nth Fibonacci - Recursion.csproj", "{3977957A-1AC4-4AFF-9A1E-5BAFD6B299DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{A5A00410-05C2-44FE-9386-92EEFFB18B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5A00410-05C2-44FE-9386-92EEFFB18B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5A00410-05C2-44FE-9386-92EEFFB18B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3977957A-1AC4-4AFF-9A1E-5BAFD6B299DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3977957A-1AC4-4AFF-9A1E-5BAFD6B299DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3977957A-1AC4-4AFF-9A1E-5BAFD6B299DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3977957A-1AC4-4AFF-9A1E-5BAFD6B299DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
