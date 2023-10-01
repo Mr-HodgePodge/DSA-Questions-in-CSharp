@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First Non-Repeating Charact
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Balanced Brackets - Stacks", "Balanced Brackets - Stacks\Balanced Brackets - Stacks.csproj", "{A5A00410-05C2-44FE-9386-92EEFFB18B3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nth Fibonacci - Recursion", "Nth Fibonacci - Recursion\Nth Fibonacci - Recursion.csproj", "{3977957A-1AC4-4AFF-9A1E-5BAFD6B299DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nth Fibonacci - Recursion", "Nth Fibonacci - Recursion\Nth Fibonacci - Recursion.csproj", "{3977957A-1AC4-4AFF-9A1E-5BAFD6B299DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack Probability - Recursion", "BlackJack Probability - Recursion\BlackJack Probability - Recursion.csproj", "{20656F31-B964-477F-BAAF-0BBF6CEA53F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3977957A-1AC4-4AFF-9A1E-5BAFD6B299DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3977957A-1AC4-4AFF-9A1E-5BAFD6B299DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3977957A-1AC4-4AFF-9A1E-5BAFD6B299DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20656F31-B964-477F-BAAF-0BBF6CEA53F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20656F31-B964-477F-BAAF-0BBF6CEA53F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20656F31-B964-477F-BAAF-0BBF6CEA53F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20656F31-B964-477F-BAAF-0BBF6CEA53F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
