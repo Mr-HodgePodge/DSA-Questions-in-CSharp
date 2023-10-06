@@ -13,11 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nth Fibonacci - Recursion",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlackJack Probability - Recursion", "BlackJack Probability - Recursion\BlackJack Probability - Recursion.csproj", "{20656F31-B964-477F-BAAF-0BBF6CEA53F0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stack Question", "Stack Question", "{9F95B6C8-4DF0-445F-B194-56C0D77D855A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stack Questions", "Stack Questions", "{9F95B6C8-4DF0-445F-B194-56C0D77D855A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion Questions", "Recursion Questions", "{FA6B25C0-574F-4DD9-97FA-692F90C564FA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strings", "Strings", "{E4ABE1B1-4368-442B-892B-CB0116A5BBDC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "String Questions", "String Questions", "{E4ABE1B1-4368-442B-892B-CB0116A5BBDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
