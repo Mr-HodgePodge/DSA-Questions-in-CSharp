@@ -11,7 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Balanced Brackets - Stacks"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nth Fibonacci - Recursion", "Nth Fibonacci - Recursion\Nth Fibonacci - Recursion.csproj", "{3977957A-1AC4-4AFF-9A1E-5BAFD6B299DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack Probability - Recursion", "BlackJack Probability - Recursion\BlackJack Probability - Recursion.csproj", "{20656F31-B964-477F-BAAF-0BBF6CEA53F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlackJack Probability - Recursion", "BlackJack Probability - Recursion\BlackJack Probability - Recursion.csproj", "{20656F31-B964-477F-BAAF-0BBF6CEA53F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stack Question", "Stack Question", "{9F95B6C8-4DF0-445F-B194-56C0D77D855A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion Questions", "Recursion Questions", "{FA6B25C0-574F-4DD9-97FA-692F90C564FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strings", "Strings", "{E4ABE1B1-4368-442B-892B-CB0116A5BBDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +48,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1687578E-061F-4B37-95EE-EE0D15C025EA} = {E4ABE1B1-4368-442B-892B-CB0116A5BBDC}
+		{B06B9D15-6285-4E9D-8184-1A9CF5276099} = {E4ABE1B1-4368-442B-892B-CB0116A5BBDC}
+		{A5A00410-05C2-44FE-9386-92EEFFB18B3B} = {9F95B6C8-4DF0-445F-B194-56C0D77D855A}
+		{3977957A-1AC4-4AFF-9A1E-5BAFD6B299DB} = {FA6B25C0-574F-4DD9-97FA-692F90C564FA}
+		{20656F31-B964-477F-BAAF-0BBF6CEA53F0} = {FA6B25C0-574F-4DD9-97FA-692F90C564FA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2421436E-4391-462A-A542-41BB6D22092B}
